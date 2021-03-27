@@ -1,0 +1,33 @@
+{
+  "name": "lifecycle-express",
+  "version": "1.0.0",
+  "description": "Utility to allow definining express middleware in the best order",
+  "homepage": "https://github.com/parroyoc/lifecycle-express#readme",
+  "main": "lib/express-lifecycle.js",
+  "author": "Pablo Arroyo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parroyoc/lifecycle-express.git"
+  },
+  "keywords": [
+    "javascript",
+    "express",
+    "node",
+    "middleware",
+    "order",
+    "lifecycle"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "node example/launcher.js",
+    "lifecycle": "node example/launcher-lc.js",
+    "test": "jest --config jest.config.json --coverage"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  }
+}
